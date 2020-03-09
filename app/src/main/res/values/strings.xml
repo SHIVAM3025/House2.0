@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">House</string>
+    <string name="Home">Home</string>
+    <string name="All">All Events</string>
+    <string name="My">Booked Events</string>
+    <string name="Profile">Profile</string>
+
+
+    <string name="title">TITLE</string>
+
+    <string name="help">Help &amp; Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="general">General</string>
+    <string name="about_the_app">About The App</string>
+    <string name="sign_out">Log Out</string>
+    <string name="terms_heading">Terms And Conditions</string>
+
+    <string name="verification">Account Verification</string>
+
+    <string name="my_events">Booked Events</string>
+    <string name="host">Hosted By : </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="facebook_app_id">576638329535457</string>
+    <string name="fb_login_protocol_scheme">fb576638329535457</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="about">About</string>
+
+    <string name="invite">INVITATION</string>
+    <string name="report_head">Report</string>
+    <string name="reason">Reason</string>
+    <string name="channel_one">Channel 1</string>
+    <string name="join">JOIN</string>
+    <string name="warning">Your Profile will be visible to all users </string>
+    <string name="unjoin">UNJOIN</string>
+    <string name="report_heading">Why are you reporting this post?</string>
+    <string name="promote">PROMOTION</string>
+
+
+</resources>

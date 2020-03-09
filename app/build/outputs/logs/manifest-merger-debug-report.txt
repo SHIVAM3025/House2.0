@@ -1,0 +1,863 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\381c98454c43137c1a43708033f76076\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\428fc19a90ddc9f8731e322942b78a66\material-1.0.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.MikeOrtiz:TouchImageView:2.2.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\34e3a2ae92bcb17d2d2afc0b889694ce\TouchImageView-2.2.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.android:facebook-login:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\8f38f7e46e7c4af37cde1c9c9d526dcd\jetified-facebook-login-5.1.1\AndroidManifest.xml:21:1-31:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\560cd20d723d76166e6ec346501d1017\android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3cccbf24b77cdd98ec6f3b4c7719929\jetified-Toasty-1.4.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\684756b49567c4d8f36a556c38b62711\appcompat-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3379480cad2252ee8c4346ba223a1d89\recyclerview-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\87a143da94696b83844c5dee14dfa3b2\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3a25edffb25ec432c2fb24af6b04d4e6\PhotoView-1.2.4\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\0a8db589fd8a31b929f8494814adc2dc\jetified-firebase-database-16.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3c0a841437938e8269e41767d89431e\jetified-firebase-storage-16.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-plus:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2c7a7ef0a87d1e31b457681100b5debf\jetified-play-services-plus-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b257dc496038d7889a91fd5cec6799af\play-services-flags-15.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\00ea9fc2af902ccc1b89a77393856257\jetified-firebase-auth-interop-16.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5dc47576ff832cc9b9b3ef9a09c2f185\jetified-play-services-auth-api-phone-15.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3085e0a383d60195c00dc3e9f171b60f\jetified-play-services-auth-base-15.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-audience:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\484d2cf47df586ed0e29b86b8ba88c93\play-services-audience-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-invites:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\df7ff359066969e2886c198885119b7e\firebase-invites-16.0.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\939fc658464e6f89d357481fa81da879\jetified-firebase-dynamic-links-16.1.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9d755415041b372cdebcf3b406f80e84\firebase-core-16.0.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2099d2db95012ef62d2eed0ab1a02e8d\jetified-play-services-measurement-api-16.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\e0ef5a555f000167764d5bcbd7707b2d\jetified-firebase-iid-interop-16.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9c9774dcdce7688bc718eda0e97a8837\jetified-firebase-database-connection-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1db5dad5f872c5428d6b0d1d77335155\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fd1dfb2c8230cedba0067df3f759a1ee\firebase-database-collection-15.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\eef4ffd39d5526d3f727213912d50079\jetified-play-services-stats-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a70c3fd7220cd09fbeecf0198b0c6f98\jetified-firebase-measurement-connector-17.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4846a3dc2dd16bfb375b747d73bd4c5f\jetified-play-services-ads-identifier-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9928268f41f05c8a57e58c234c9725c1\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c5688b00790998bc9e62b5de4b97dbbb\fragment-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f47effb123a64e1d730b86763546d33c\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b5dca569a51bda1c10ed0eda9e549553\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6c1c5d6d39fad550b5f02d663d115d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5f781a56935ac595e2db0b16089d7d74\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\de689fc55480793809300ed65ba604af\transition-1.0.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2047bb4aed1a2c9d2cd67e29e96eb8fb\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\71bf62fc098698ba837dfe520b6765b6\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f75e098880341e3cc21e19a565ecfdeb\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d70b3f202d44c584ab1a8a171887dfcf\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3d0b68c9aef54137afbeffd6e9b11c07\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fea89fad1f5fd5468463bd3190e2531c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4f8cfd45281a329d4ecff143a4267230\activity-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f5d2edea70c510ca5da24f7370d0a25b\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\090471d8edd97c61a404ea4ab130918f\vectordrawable-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4930143124ae3462311525eac0886af3\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91b597f0a8a04594e5662d62d0433f9e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1c114df0c5c09c9ae58b02b0e98e637c\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d08e6422c18e274241cabb99301b3aaf\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\77fd573de6d0b84bcfd315d7816a83aa\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6e2440cb3ad8ff88cf61e48c21d063dd\compressor-2.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\256f0bc67dea5d5fa545ff941698250e\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [pub.hanks:smallbang:1.2.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5be13abbdcc34644727b85397135cf04\smallbang-1.2.2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\37884cf115438020fca320bfcc28bb80\jetified-readmoretextview-2.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cdc31ce108929215dd0d2179a5a460b0\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2f27f18fb543beb252303f819e50f30a\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c80b6121ec7c1419dc0e184943effcb7\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c2ab30a1b57887191c5c6c6911273a7a\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7d762440e5e1343fd1212129732201d\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\bf144c6e8d9a12d53e202ded8d1617d3\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\01e2fee16ae24cfce2479482e21c1e2a\savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91a48b23358053b28270b4789f0f9db3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d9978c7c5449e7386482c224266f0945\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\27067eab390a87f0bab86d94c7e325b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91821370d2d3584da73fee4e54b699db\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b454920d4cc6f2470ab5c845fc0f981f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f69f9b2a547bfa9765e1279d4c09ce2f\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fdbf4ae63cdf7f7d519114f970be9395\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a80c53022a3f4243a4724d7132bb62e6\protolite-well-known-types-16.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f2a9eeee02432a8d233f74105c60e15b\play-services-measurement-base-16.0.2\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+	package
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:1-123:12
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9c9774dcdce7688bc718eda0e97a8837\jetified-firebase-database-connection-16.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9c9774dcdce7688bc718eda0e97a8837\jetified-firebase-database-connection-16.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:11:5-121:19
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\428fc19a90ddc9f8731e322942b78a66\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\428fc19a90ddc9f8731e322942b78a66\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.github.MikeOrtiz:TouchImageView:2.2.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\34e3a2ae92bcb17d2d2afc0b889694ce\TouchImageView-2.2.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:2.2.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\34e3a2ae92bcb17d2d2afc0b889694ce\TouchImageView-2.2.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.android:facebook-login:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\8f38f7e46e7c4af37cde1c9c9d526dcd\jetified-facebook-login-5.1.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\8f38f7e46e7c4af37cde1c9c9d526dcd\jetified-facebook-login-5.1.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:28:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\87a143da94696b83844c5dee14dfa3b2\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\87a143da94696b83844c5dee14dfa3b2\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-plus:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2c7a7ef0a87d1e31b457681100b5debf\jetified-play-services-plus-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2c7a7ef0a87d1e31b457681100b5debf\jetified-play-services-plus-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\00ea9fc2af902ccc1b89a77393856257\jetified-firebase-auth-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\00ea9fc2af902ccc1b89a77393856257\jetified-firebase-auth-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-audience:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\484d2cf47df586ed0e29b86b8ba88c93\play-services-audience-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-audience:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\484d2cf47df586ed0e29b86b8ba88c93\play-services-audience-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-invites:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\df7ff359066969e2886c198885119b7e\firebase-invites-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-invites:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\df7ff359066969e2886c198885119b7e\firebase-invites-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\939fc658464e6f89d357481fa81da879\jetified-firebase-dynamic-links-16.1.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\939fc658464e6f89d357481fa81da879\jetified-firebase-dynamic-links-16.1.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9d755415041b372cdebcf3b406f80e84\firebase-core-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9d755415041b372cdebcf3b406f80e84\firebase-core-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2099d2db95012ef62d2eed0ab1a02e8d\jetified-play-services-measurement-api-16.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2099d2db95012ef62d2eed0ab1a02e8d\jetified-play-services-measurement-api-16.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\e0ef5a555f000167764d5bcbd7707b2d\jetified-firebase-iid-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\e0ef5a555f000167764d5bcbd7707b2d\jetified-firebase-iid-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1db5dad5f872c5428d6b0d1d77335155\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1db5dad5f872c5428d6b0d1d77335155\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\eef4ffd39d5526d3f727213912d50079\jetified-play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\eef4ffd39d5526d3f727213912d50079\jetified-play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a70c3fd7220cd09fbeecf0198b0c6f98\jetified-firebase-measurement-connector-17.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a70c3fd7220cd09fbeecf0198b0c6f98\jetified-firebase-measurement-connector-17.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4846a3dc2dd16bfb375b747d73bd4c5f\jetified-play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4846a3dc2dd16bfb375b747d73bd4c5f\jetified-play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:28:5-59:19
+MERGED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:24:5-89
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d08e6422c18e274241cabb99301b3aaf\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d08e6422c18e274241cabb99301b3aaf\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\256f0bc67dea5d5fa545ff941698250e\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\256f0bc67dea5d5fa545ff941698250e\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [pub.hanks:smallbang:1.2.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5be13abbdcc34644727b85397135cf04\smallbang-1.2.2\AndroidManifest.xml:11:5-15:19
+MERGED from [pub.hanks:smallbang:1.2.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5be13abbdcc34644727b85397135cf04\smallbang-1.2.2\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2f27f18fb543beb252303f819e50f30a\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2f27f18fb543beb252303f819e50f30a\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c2ab30a1b57887191c5c6c6911273a7a\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c2ab30a1b57887191c5c6c6911273a7a\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f2a9eeee02432a8d233f74105c60e15b\play-services-measurement-base-16.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f2a9eeee02432a8d233f74105c60e15b\play-services-measurement-base-16.0.2\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:16:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:14:9-44
+	android:roundIcon
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:19:9-43
+	android:largeHeap
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:15:9-38
+	android:allowBackup
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:21:9-42
+	android:logo
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:18:9-38
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:12:9-38
+activity#com.dtu.house.Show.Show_profile_edit_promote_activity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:22:9-25:25
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:23:13-49
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:24:13-46
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:22:19-74
+activity#com.dtu.house.Verification
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:26:9-30:51
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:29:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:28:13-65
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:27:13-41
+activity#com.dtu.house.Show.ShowInvitationActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:32:13-56
+activity#com.dtu.house.Report.ReportActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:35:13-50
+activity#com.dtu.house.Show.ImageEnlarge
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:38:13-46
+activity#com.dtu.house.Show.Show_invitation_activity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:41:13-58
+activity#com.dtu.house.PostActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:43:9-47:49
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:45:13-56
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:47:13-46
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:44:13-41
+activity#com.dtu.house.AboutActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:49:13-42
+activity#com.dtu.house.TermsActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:52:13-42
+activity#com.dtu.house.ProfileSettingActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:54:9-57:49
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:56:13-49
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:57:13-46
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:55:13-51
+activity#com.dtu.house.Show.Show_profile_invite_edit_activity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:59:13-67
+activity#com.dtu.house.MainActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:61:9-71:20
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:64:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:62:13-41
+intent-filter#action:name:android.intent.action.MAIN.openTerms+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN.openTerms
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:67:17-79
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:67:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:69:27-73
+activity#com.dtu.house.LoginActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:72:9-81:20
+	android:screenOrientation
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:74:13-49
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:75:13-46
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:73:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:76:13-80:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:77:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:79:17-77
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:79:27-74
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:82:9-84:59
+	android:theme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:84:13-56
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:83:13-76
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:86:9-88:55
+	android:value
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:88:13-52
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:87:13-58
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:90:9-93:48
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:93:13-45
+	android:configChanges
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:92:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:91:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:94:9-105:20
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:95:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:97:13-104:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:98:17-69
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:98:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:101:17-78
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:101:27-75
+data
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:103:17-75
+	android:scheme
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:103:23-72
+service#com.dtu.house.messaging.FirebaseMessagingService
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:107:9-113:19
+	android:exported
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:108:13-63
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:110:13-112:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:111:17-78
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:111:25-75
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:115:9-117:54
+	android:resource
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:117:13-51
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:116:13-84
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:resource
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml:119:13-83
+uses-sdk
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\381c98454c43137c1a43708033f76076\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\381c98454c43137c1a43708033f76076\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\428fc19a90ddc9f8731e322942b78a66\material-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\428fc19a90ddc9f8731e322942b78a66\material-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.github.MikeOrtiz:TouchImageView:2.2.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\34e3a2ae92bcb17d2d2afc0b889694ce\TouchImageView-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:2.2.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\34e3a2ae92bcb17d2d2afc0b889694ce\TouchImageView-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\8f38f7e46e7c4af37cde1c9c9d526dcd\jetified-facebook-login-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\8f38f7e46e7c4af37cde1c9c9d526dcd\jetified-facebook-login-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\560cd20d723d76166e6ec346501d1017\android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\560cd20d723d76166e6ec346501d1017\android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3cccbf24b77cdd98ec6f3b4c7719929\jetified-Toasty-1.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3cccbf24b77cdd98ec6f3b4c7719929\jetified-Toasty-1.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\684756b49567c4d8f36a556c38b62711\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\684756b49567c4d8f36a556c38b62711\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3379480cad2252ee8c4346ba223a1d89\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3379480cad2252ee8c4346ba223a1d89\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\87a143da94696b83844c5dee14dfa3b2\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\87a143da94696b83844c5dee14dfa3b2\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3a25edffb25ec432c2fb24af6b04d4e6\PhotoView-1.2.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3a25edffb25ec432c2fb24af6b04d4e6\PhotoView-1.2.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\0a8db589fd8a31b929f8494814adc2dc\jetified-firebase-database-16.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\0a8db589fd8a31b929f8494814adc2dc\jetified-firebase-database-16.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3c0a841437938e8269e41767d89431e\jetified-firebase-storage-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c3c0a841437938e8269e41767d89431e\jetified-firebase-storage-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2c7a7ef0a87d1e31b457681100b5debf\jetified-play-services-plus-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2c7a7ef0a87d1e31b457681100b5debf\jetified-play-services-plus-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b257dc496038d7889a91fd5cec6799af\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b257dc496038d7889a91fd5cec6799af\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\00ea9fc2af902ccc1b89a77393856257\jetified-firebase-auth-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\00ea9fc2af902ccc1b89a77393856257\jetified-firebase-auth-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5dc47576ff832cc9b9b3ef9a09c2f185\jetified-play-services-auth-api-phone-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5dc47576ff832cc9b9b3ef9a09c2f185\jetified-play-services-auth-api-phone-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3085e0a383d60195c00dc3e9f171b60f\jetified-play-services-auth-base-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3085e0a383d60195c00dc3e9f171b60f\jetified-play-services-auth-base-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-audience:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\484d2cf47df586ed0e29b86b8ba88c93\play-services-audience-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-audience:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\484d2cf47df586ed0e29b86b8ba88c93\play-services-audience-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-invites:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\df7ff359066969e2886c198885119b7e\firebase-invites-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-invites:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\df7ff359066969e2886c198885119b7e\firebase-invites-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\939fc658464e6f89d357481fa81da879\jetified-firebase-dynamic-links-16.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\939fc658464e6f89d357481fa81da879\jetified-firebase-dynamic-links-16.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9d755415041b372cdebcf3b406f80e84\firebase-core-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9d755415041b372cdebcf3b406f80e84\firebase-core-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2099d2db95012ef62d2eed0ab1a02e8d\jetified-play-services-measurement-api-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2099d2db95012ef62d2eed0ab1a02e8d\jetified-play-services-measurement-api-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\e0ef5a555f000167764d5bcbd7707b2d\jetified-firebase-iid-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\e0ef5a555f000167764d5bcbd7707b2d\jetified-firebase-iid-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9c9774dcdce7688bc718eda0e97a8837\jetified-firebase-database-connection-16.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9c9774dcdce7688bc718eda0e97a8837\jetified-firebase-database-connection-16.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1db5dad5f872c5428d6b0d1d77335155\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1db5dad5f872c5428d6b0d1d77335155\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fd1dfb2c8230cedba0067df3f759a1ee\firebase-database-collection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fd1dfb2c8230cedba0067df3f759a1ee\firebase-database-collection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\ae0e3dd92f3c61227b69f6d9e1e56b18\jetified-firebase-storage-common-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\eef4ffd39d5526d3f727213912d50079\jetified-play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\eef4ffd39d5526d3f727213912d50079\jetified-play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a70c3fd7220cd09fbeecf0198b0c6f98\jetified-firebase-measurement-connector-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a70c3fd7220cd09fbeecf0198b0c6f98\jetified-firebase-measurement-connector-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4846a3dc2dd16bfb375b747d73bd4c5f\jetified-play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4846a3dc2dd16bfb375b747d73bd4c5f\jetified-play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9928268f41f05c8a57e58c234c9725c1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\9928268f41f05c8a57e58c234c9725c1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c5688b00790998bc9e62b5de4b97dbbb\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c5688b00790998bc9e62b5de4b97dbbb\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f47effb123a64e1d730b86763546d33c\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f47effb123a64e1d730b86763546d33c\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b5dca569a51bda1c10ed0eda9e549553\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b5dca569a51bda1c10ed0eda9e549553\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6c1c5d6d39fad550b5f02d663d115d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6c1c5d6d39fad550b5f02d663d115d3f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5f781a56935ac595e2db0b16089d7d74\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5f781a56935ac595e2db0b16089d7d74\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\de689fc55480793809300ed65ba604af\transition-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\de689fc55480793809300ed65ba604af\transition-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2047bb4aed1a2c9d2cd67e29e96eb8fb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2047bb4aed1a2c9d2cd67e29e96eb8fb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\71bf62fc098698ba837dfe520b6765b6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\71bf62fc098698ba837dfe520b6765b6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f75e098880341e3cc21e19a565ecfdeb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f75e098880341e3cc21e19a565ecfdeb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d70b3f202d44c584ab1a8a171887dfcf\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d70b3f202d44c584ab1a8a171887dfcf\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3d0b68c9aef54137afbeffd6e9b11c07\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\3d0b68c9aef54137afbeffd6e9b11c07\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fea89fad1f5fd5468463bd3190e2531c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fea89fad1f5fd5468463bd3190e2531c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4f8cfd45281a329d4ecff143a4267230\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4f8cfd45281a329d4ecff143a4267230\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f5d2edea70c510ca5da24f7370d0a25b\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f5d2edea70c510ca5da24f7370d0a25b\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\090471d8edd97c61a404ea4ab130918f\vectordrawable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\090471d8edd97c61a404ea4ab130918f\vectordrawable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4930143124ae3462311525eac0886af3\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\4930143124ae3462311525eac0886af3\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91b597f0a8a04594e5662d62d0433f9e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91b597f0a8a04594e5662d62d0433f9e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1c114df0c5c09c9ae58b02b0e98e637c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\1c114df0c5c09c9ae58b02b0e98e637c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0-alpha02] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d91ce9ea3d121199973d1a04e2b07efe\core-1.2.0-alpha02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d08e6422c18e274241cabb99301b3aaf\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d08e6422c18e274241cabb99301b3aaf\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\77fd573de6d0b84bcfd315d7816a83aa\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\77fd573de6d0b84bcfd315d7816a83aa\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6e2440cb3ad8ff88cf61e48c21d063dd\compressor-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6e2440cb3ad8ff88cf61e48c21d063dd\compressor-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\256f0bc67dea5d5fa545ff941698250e\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\256f0bc67dea5d5fa545ff941698250e\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [pub.hanks:smallbang:1.2.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5be13abbdcc34644727b85397135cf04\smallbang-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.hanks:smallbang:1.2.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\5be13abbdcc34644727b85397135cf04\smallbang-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\37884cf115438020fca320bfcc28bb80\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\37884cf115438020fca320bfcc28bb80\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cdc31ce108929215dd0d2179a5a460b0\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cdc31ce108929215dd0d2179a5a460b0\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2f27f18fb543beb252303f819e50f30a\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\2f27f18fb543beb252303f819e50f30a\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c80b6121ec7c1419dc0e184943effcb7\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c80b6121ec7c1419dc0e184943effcb7\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c2ab30a1b57887191c5c6c6911273a7a\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c2ab30a1b57887191c5c6c6911273a7a\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7d762440e5e1343fd1212129732201d\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7d762440e5e1343fd1212129732201d\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\bf144c6e8d9a12d53e202ded8d1617d3\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\bf144c6e8d9a12d53e202ded8d1617d3\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\01e2fee16ae24cfce2479482e21c1e2a\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\01e2fee16ae24cfce2479482e21c1e2a\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91a48b23358053b28270b4789f0f9db3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91a48b23358053b28270b4789f0f9db3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d9978c7c5449e7386482c224266f0945\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d9978c7c5449e7386482c224266f0945\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\27067eab390a87f0bab86d94c7e325b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\27067eab390a87f0bab86d94c7e325b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91821370d2d3584da73fee4e54b699db\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\91821370d2d3584da73fee4e54b699db\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b454920d4cc6f2470ab5c845fc0f981f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b454920d4cc6f2470ab5c845fc0f981f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f69f9b2a547bfa9765e1279d4c09ce2f\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f69f9b2a547bfa9765e1279d4c09ce2f\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fdbf4ae63cdf7f7d519114f970be9395\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\fdbf4ae63cdf7f7d519114f970be9395\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a80c53022a3f4243a4724d7132bb62e6\protolite-well-known-types-16.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\a80c53022a3f4243a4724d7132bb62e6\protolite-well-known-types-16.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f2a9eeee02432a8d233f74105c60e15b\play-services-measurement-base-16.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\f2a9eeee02432a8d233f74105c60e15b\play-services-measurement-base-16.0.2\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunja\Desktop\House2.0\House2.0\app\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\cb7ab4380f15f5bd804f24a704541312\jetified-facebook-common-5.1.1\AndroidManifest.xml:33:19-68
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\c1b44b1e666327edf44d7e58ddb56de8\jetified-firebase-auth-16.0.1\AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\54bc7e64a0500df811cc4c0b678a3a50\jetified-play-services-auth-15.0.1\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.0] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\682590ac396dfd9dc680bd6186f8d34c\jetified-firebase-firestore-17.1.0\AndroidManifest.xml:16:17-111
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\59f8ac090e0bc399c705d6ab212593ec\jetified-firebase-messaging-17.3.2\AndroidManifest.xml:29:13-82
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:26:13-76
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\b2a6c2f39a807a909c50379e848c9010\jetified-play-services-appinvite-16.0.3\AndroidManifest.xml:30:25-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\68f46506623c65d402daed332ad8da1f\jetified-firebase-measurement-connector-impl-17.0.1\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\6addc6d016d1683d47b91e2dd88c8903\jetified-firebase-analytics-impl-16.2.1\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\d7a8c5dca8e779f7e2715ef5d9a14ae8\jetified-firebase-analytics-16.0.3\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\72925071ad19a035103078b263bb2239\jetified-firebase-iid-17.0.2\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\20b0aa84532bce26fc63cf750ac82019\jetified-play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\79871456a1e174078b5cccd866d7c27d\jetified-firebase-common-16.0.1\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\223ca76b69e3b6274a397b0042b397aa\jetified-play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.1] C:\Users\sunja\.gradle\caches\transforms-2\files-2.1\96980aa7a45744e111d9e46254dec5f4\jetified-facebook-core-5.1.1\AndroidManifest.xml:52:13-65

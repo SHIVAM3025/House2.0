@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66D6D6D6"
+    tools:context=".ProfileSettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/only_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/parent"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:src="@drawable/ic_back_arrow" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@id/parent"
+                android:text="Settings"
+                android:textColor="@color/heading_color"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/only_toolbar"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp"
+                android:text="@string/help"
+                android:textColor="@color/desc_color" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relative_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/text_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:textSize="16sp"
+                android:text="@string/feedback"
+                android:textColor="@color/heading_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:textSize="19sp"
+                android:text="@string/general"
+                android:textColor="@color/desc_color" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_verify"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/text_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:textSize="16sp"
+                android:text="President Verification"
+                android:textColor="@color/heading_color" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_about"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/text_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:textSize="16sp"
+                android:text="@string/about_the_app"
+                android:textColor="@color/heading_color" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_terms"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/text_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:textSize="16sp"
+                android:text="Terms And Conditions"
+                android:textColor="@color/heading_color" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_out"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/text_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:text="@string/sign_out"
+                android:textSize="16sp"
+                android:textColor="@color/heading_color" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/first_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout"
+        android:layout_marginTop="20dp"
+        android:text="By logging in, you agree to our"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="#B7000000" />
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_terms"
+        android:layout_marginBottom="20dp"
+        android:text="Terms And Conditions."
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="#3F51B5" />
+
+
+</RelativeLayout>

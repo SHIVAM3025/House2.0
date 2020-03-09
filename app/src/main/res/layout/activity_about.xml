@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:id="@+id/about_the_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="About The App"
+        android:textAlignment="center"
+        android:textColor="@color/heading_color"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/about_the_app"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="19dp"
+                android:text="A heartfelt thanks to all of my dear 'House'mates for downloading this app."
+                android:textColor="@color/desc_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Why House?"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heading_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="There is a lot of commotion going on among many users as to why I named this app the way it is.\n
+ My primary concern while developing the app was to establish a reliable communication between the various societies and the fellow students. \n
+  To promote that sense of together-ness I chose the name as House, since aren't we DTUites one big family? And every family requires a house ;)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/motivation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading_desc"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="The Motivation Behind it"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/motivation_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/motivation"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="As a DTUite and more specifically as a day scholar, it was easy for me to get lost in the pandemonium of  fests and events organised by various societies in the college.
+                 \nI used to come across an event banner and say, Hey, this looks interesting, only to realize it was held over a week ago!!  I'm sure this is relatable to many.\n
+There are countless Societies/Clubs in the college, each with varying interests and agendas. These Societies use all possible means to publicize their fests/workshops/competitions namely through C2Cs, banners, spamming  messages in Whatsapp groups (which naturally get lost in the group chats) etc. Though all these efforts do amount to some significant footfall, they still lag in delivering info to many interested folks. Many events come and go like Delhi Monsoon without giving  any of  their whereabouts.
+            "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/fitting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/motivation_desc"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="So Where Does 'House' Fit In All This?"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fitting_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fitting"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="In order to address the above problem, what I have create is a DBMS that houses the details of every event namely Date, Time, Venue, OrganisingTeam. Every new event will be uploaded to all House users in real-time.
+The upload page has been divide intotwo segments:\n
+\n1. Invitation: This segment displays all the upcoming society events in the order they have been uploaded, alongwith the required details.\n
+\n2.Promotion: This segment is mainly meant for individuals who want to promote any of their work online, eg artworks, websites, apps etc. Societies can also use it to promote their events at the crucial stages.\n
+Your privacy won't be compromised; i.e. your image and email id you are using to log-in will be concealed. Only your name will be visible alongwith the event you are promoting. This feature has been inculcated to reduce spamming in the app.
+As a side note, if someone spams i.e posts offensive content, irrelevant info etc. their gmail/FB account will be disabled from the database without further notice.
+I hope you guys will love this app. :)\n
+Developer: Shivam Gupta \n
+Email ID: shivamgupta1887@gmail.com\n\n\n
+
+"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
+
+

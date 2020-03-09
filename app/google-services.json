@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "154007480239",
+    "firebase_url": "https://house20-5db92.firebaseio.com",
+    "project_id": "house20-5db92",
+    "storage_bucket": "house20-5db92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154007480239:android:f3fb0cf9ddd82825",
+        "android_client_info": {
+          "package_name": "com.dtu.house"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154007480239-to1r1vn331au6iu0g5bus10dvqc18aij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dtu.house",
+            "certificate_hash": "8eef0129b5d71cfa321b3fbaf433d10443973e41"
+          }
+        },
+        {
+          "client_id": "154007480239-75dp988bc72ova658s2et4hfg3aq4d6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dtu.house",
+            "certificate_hash": "38c8e5fea98950ca8be91c1764c820b77d739751"
+          }
+        },
+        {
+          "client_id": "154007480239-44mtg3mvrdiq6cn7p62qlns8ig2n5amf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK4MmUOIy475-XJ8RmezrvSo8yeES--G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154007480239-44mtg3mvrdiq6cn7p62qlns8ig2n5amf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
