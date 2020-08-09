@@ -1,15 +1,6 @@
 package com.dtu.house;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import es.dmoral.toasty.Toasty;
-import id.zelory.compressor.Compressor;
-
 import android.Manifest;
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -26,12 +17,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -43,6 +39,9 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+
+import es.dmoral.toasty.Toasty;
+import id.zelory.compressor.Compressor;
 
 public class Verification extends AppCompatActivity {
 
@@ -217,7 +216,7 @@ public class Verification extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if ((ContextCompat.checkSelfPermission(Verification.this, Manifest.permission.READ_EXTERNAL_STORAGE)) != (PackageManager.PERMISSION_GRANTED)) {
 
-                ActivityCompat.requestPermissions((Activity) Verification.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+                ActivityCompat.requestPermissions(Verification.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
             } else {
 
                 CropImage.activity()

@@ -14,6 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.bumptech.glide.request.RequestOptions;
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
@@ -26,7 +30,6 @@ import com.facebook.GraphResponse;
 import com.facebook.LoggingBehavior;
 import com.facebook.Profile;
 import com.facebook.ProfileTracker;
-import com.facebook.login.Login;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
@@ -51,9 +54,6 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import es.dmoral.toasty.Toasty;
 
 
@@ -81,9 +81,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        if(!isConnected(LoginActivity.this))
-        {
-            Snackbar.make(findViewById(android.R.id.content) , "No Internet Connection" , Snackbar.LENGTH_LONG).show();
+        if (!isConnected(LoginActivity.this)) {
+            Snackbar.make(findViewById(android.R.id.content), "No Internet Connection", Snackbar.LENGTH_LONG).show();
         }
 
 
@@ -91,12 +90,12 @@ public class LoginActivity extends AppCompatActivity {
 
         FacebookSdk.addLoggingBehavior(LoggingBehavior.REQUESTS);
 
-        mgoogle = (SignInButton) findViewById(R.id.google_btn);
-        mfacebook = (LoginButton) findViewById(R.id.facebook_login);
+        mgoogle = findViewById(R.id.google_btn);
+        mfacebook = findViewById(R.id.facebook_login);
         mtext_view = findViewById(R.id.facebook_text_view);
         mlinear = findViewById(R.id.linear_layout);
 
-        mprogress = (ProgressBar) findViewById(R.id.progressBar);
+        mprogress = findViewById(R.id.progressBar);
 
         callbackManager = CallbackManager.Factory.create();
         mfacebook.setPermissions("email", "public_profile");
@@ -619,11 +618,7 @@ public class LoginActivity extends AppCompatActivity {
             android.net.NetworkInfo wifi = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
             android.net.NetworkInfo moobile = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
 
-            if ((moobile != null && moobile.isConnectedOrConnecting()) || (wifi != null && wifi.isConnectedOrConnecting())) {
-                return true;
-            } else {
-                return false;
-            }
+            return (moobile != null && moobile.isConnectedOrConnecting()) || (wifi != null && wifi.isConnectedOrConnecting());
 
         } else {
             return false;

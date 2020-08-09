@@ -1,13 +1,13 @@
 package com.dtu.house;
 
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ProgressBar;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ProgressBar;
 
 import com.dtu.house.Adapter.Terms_Adapter;
 import com.dtu.house.Model.Upload_terms;
@@ -36,12 +36,12 @@ public class TermsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_terms);
 
 
-        mrecycler_View = (RecyclerView) findViewById(R.id.recycler_view);
+        mrecycler_View = findViewById(R.id.recycler_view);
 
         mrecycler_View.setHasFixedSize(true);
         mlinear = new LinearLayoutManager(this);
         mrecycler_View.setLayoutManager(mlinear);
-        mprogress  = (ProgressBar) findViewById(R.id.progressBar);
+        mprogress = findViewById(R.id.progressBar);
 
 
         mUploads = new ArrayList<>();
@@ -64,7 +64,6 @@ public class TermsActivity extends AppCompatActivity {
                 adapetr.notifyDataSetChanged();
 
                 mprogress.setVisibility(View.GONE);
-
 
             }
 

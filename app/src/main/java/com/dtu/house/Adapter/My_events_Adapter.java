@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.bumptech.glide.Glide;
 import com.dtu.house.Model.Upload_my_events;
 import com.dtu.house.R;
@@ -15,9 +18,6 @@ import com.dtu.house.Show.ShowInvitationActivity;
 import com.google.android.material.card.MaterialCardView;
 
 import java.util.List;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
 public class My_events_Adapter extends RecyclerView.Adapter<My_events_Adapter.HoldView> {
 
@@ -32,7 +32,7 @@ public class My_events_Adapter extends RecyclerView.Adapter<My_events_Adapter.Ho
     @NonNull
     @Override
     public HoldView onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(mcontext).inflate(R.layout.notification_layout , parent , false);
+        View v = LayoutInflater.from(mcontext).inflate(R.layout.notification_layout, parent, false);
         return new My_events_Adapter.HoldView(v);
     }
 
@@ -53,14 +53,14 @@ public class My_events_Adapter extends RecyclerView.Adapter<My_events_Adapter.Ho
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(mcontext , ShowInvitationActivity.class);
-                intent.putExtra("postKey",uploadCurrent.getKey());
-                intent.putExtra("mImageUrl",uploadCurrent.getmImageurl());
-                intent.putExtra("mheading",uploadCurrent.getHeading());
-                intent.putExtra("mdesc",uploadCurrent.getMdesc());
-                intent.putExtra("mvenue",uploadCurrent.getMvenue());
-                intent.putExtra("mtimeinmillis",uploadCurrent.getTime_in_millis());
-                intent.putExtra("mAuth" , uploadCurrent.getmAuth());
+                Intent intent = new Intent(mcontext, ShowInvitationActivity.class);
+                intent.putExtra("postKey", uploadCurrent.getKey());
+                intent.putExtra("mImageUrl", uploadCurrent.getmImageurl());
+                intent.putExtra("mheading", uploadCurrent.getHeading());
+                intent.putExtra("mdesc", uploadCurrent.getMdesc());
+                intent.putExtra("mvenue", uploadCurrent.getMvenue());
+                intent.putExtra("mtimeinmillis", uploadCurrent.getTime_in_millis());
+                intent.putExtra("mAuth", uploadCurrent.getmAuth());
 
                 mcontext.startActivity(intent);
 
@@ -75,10 +75,10 @@ public class My_events_Adapter extends RecyclerView.Adapter<My_events_Adapter.Ho
         return mUploads.size();
     }
 
-    public class HoldView extends RecyclerView.ViewHolder{
+    public class HoldView extends RecyclerView.ViewHolder {
 
         ImageView mevent_image;
-        TextView mheading , mdesc , mvenue , mtime , mdate;
+        TextView mheading, mdesc, mvenue, mtime, mdate;
         MaterialCardView materialCardView;
 
         public HoldView(@NonNull View itemView) {

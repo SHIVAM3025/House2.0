@@ -114,7 +114,7 @@ public class Show_invitation_activity extends AppCompatActivity {
                 {
                     Upload_invitation upload =  post.getValue(Upload_invitation.class);
 
-                     mlikes.setText( " "+ Integer.toString(upload.getGoing()) + " GOING");
+                     mlikes.setText( " "+ upload.getGoing() + " GOING");
                 }
 
             }

@@ -45,7 +45,7 @@ public class ExploreFragment extends Fragment {
         mview.setAdapter(new PagerAdapter(getFragmentManager()));
         mview.addOnPageChangeListener((new TabLayout.TabLayoutOnPageChangeListener(tablayout)));
         tablayout.setupWithViewPager(mview);
-        tablayout.setTabGravity(tablayout.GRAVITY_FILL);
+        tablayout.setTabGravity(TabLayout.GRAVITY_FILL);
         return v;
     }
 

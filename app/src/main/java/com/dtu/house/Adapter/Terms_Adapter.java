@@ -6,15 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.dtu.house.Model.Upload_terms;
 import com.dtu.house.R;
 
 import java.util.List;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-
-public class Terms_Adapter extends  RecyclerView.Adapter<Terms_Adapter.ViewHold> {
+public class Terms_Adapter extends RecyclerView.Adapter<Terms_Adapter.ViewHold> {
 
 
     Context mContext;
@@ -49,16 +49,15 @@ public class Terms_Adapter extends  RecyclerView.Adapter<Terms_Adapter.ViewHold>
         return mUploads.size();
     }
 
-    public class ViewHold extends RecyclerView.ViewHolder
-    {
-        TextView mhead , mdesc;
+    public class ViewHold extends RecyclerView.ViewHolder {
+        TextView mhead, mdesc;
 
 
         public ViewHold(@NonNull View itemView) {
             super(itemView);
 
             mhead = itemView.findViewById(R.id.heading);
-            mdesc  =itemView.findViewById(R.id.Desc);
+            mdesc = itemView.findViewById(R.id.Desc);
 
         }
     }

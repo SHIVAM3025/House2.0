@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.borjabravo.readmoretextview.ReadMoreTextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
@@ -18,18 +21,14 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.ortiz.touchview.TouchImageView;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import uk.co.senab.photoview.PhotoViewAttacher;
 import xyz.hanks.library.bang.SmallBangView;
 
-public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote_Adapter.HoldView> {
+public class Public_promote_Adapter extends RecyclerView.Adapter<Public_promote_Adapter.HoldView> {
 
     private Context context;
     private List<Upload_promo> mUploads;
@@ -42,7 +41,7 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
     @NonNull
     @Override
     public HoldView onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate(R.layout.public_promote_layout , parent , false);
+        View v = LayoutInflater.from(context).inflate(R.layout.public_promote_layout, parent, false);
         return new Public_promote_Adapter.HoldView(v);
     }
 
@@ -52,12 +51,11 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
         final Upload_promo uploadCurrent = mUploads.get(position);
 
 
-
         Glide.with(context)
                 .load(uploadCurrent.getmImage())
                 .into(holder.mimage);
 
-        PhotoViewAttacher photoViewAttacher = new PhotoViewAttacher(holder.mimage , true);
+        PhotoViewAttacher photoViewAttacher = new PhotoViewAttacher(holder.mimage, true);
         photoViewAttacher.update();
 
         Glide.with(context)
@@ -68,7 +66,7 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
         holder.musername.setText(uploadCurrent.getMname());
         holder.mtitle.setText(uploadCurrent.getMtitle());
 
-        isLikes(uploadCurrent.getPublisherId() , uploadCurrent.getMkey() , holder.msmall);
+        isLikes(uploadCurrent.getPublisherId(), uploadCurrent.getMkey(), holder.msmall);
 
         holder.mshare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,9 +76,9 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
                 send_intent.setType("text/plain");
                 String title = uploadCurrent.getMtitle() + "\n\n";
                 String mimage_link = uploadCurrent.getmImage() + "\n\n";
-                String mdesc = uploadCurrent.getMdesc() +  "\n\n";
+                String mdesc = uploadCurrent.getMdesc() + "\n\n";
                 send_intent.putExtra(Intent.EXTRA_TEXT, title + mimage_link + mdesc + "\n\n");
-                context.startActivity(Intent.createChooser(send_intent , "Share Using"));
+                context.startActivity(Intent.createChooser(send_intent, "Share Using"));
 
             }
         });
@@ -88,19 +86,16 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
         holder.mdesc.setText(uploadCurrent.getMdesc());
 
 
-
         holder.msmall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                if(holder.msmall.isSelected())
-                {
+                if (holder.msmall.isSelected()) {
                     holder.msmall.setSelected(false);
                     FirebaseDatabase.getInstance().getReference().child("Likes/promotion").child(uploadCurrent.getPublisherId()).child(uploadCurrent.getMkey()).child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
 
 
-                }else
-                {
+                } else {
 
                     holder.msmall.likeAnimation();
                     holder.msmall.setSelected(true);
@@ -112,48 +107,41 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
         });
 
 
-
     }
 
 
-    private void isLikes(final String key,final String mkey, final SmallBangView mimageView) {
+    private void isLikes(final String key, final String mkey, final SmallBangView mimageView) {
 
         FirebaseDatabase.getInstance().getReference().child("Likes/promotion").child(key).child(mkey)
-        .addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                if(dataSnapshot.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).exists())
-                {
+                        if (dataSnapshot.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).exists()) {
 
-                    mimageView.setSelected(true);
-                }else
-
-                {
-                    mimageView.setSelected(false);
-                }
+                            mimageView.setSelected(true);
+                        } else {
+                            mimageView.setSelected(false);
+                        }
 
 
-            }
+                    }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
 
-            }
-        });
-
-
-
+                    }
+                });
 
 
     }
 
-        @Override
+    @Override
     public int getItemCount() {
         return mUploads.size();
     }
 
-    public class HoldView extends RecyclerView.ViewHolder{
+    public class HoldView extends RecyclerView.ViewHolder {
 
         CircleImageView mcircle;
         TextView musername;
@@ -167,13 +155,13 @@ public class Public_promote_Adapter  extends RecyclerView.Adapter<Public_promote
         public HoldView(@NonNull View itemView) {
             super(itemView);
 
-            mcircle = (CircleImageView) itemView.findViewById(R.id.circle_image);
-            musername = (TextView) itemView.findViewById(R.id.username);
-            mtitle = (TextView) itemView.findViewById(R.id.title);
-            mimage = (ImageView) itemView.findViewById(R.id.image_view);
-            mshare = (ImageView) itemView.findViewById(R.id.share);
-            msmall = (SmallBangView) itemView.findViewById(R.id.heart_small);
-            mdesc = (ReadMoreTextView) itemView.findViewById(R.id.description);
+            mcircle = itemView.findViewById(R.id.circle_image);
+            musername = itemView.findViewById(R.id.username);
+            mtitle = itemView.findViewById(R.id.title);
+            mimage = itemView.findViewById(R.id.image_view);
+            mshare = itemView.findViewById(R.id.share);
+            msmall = itemView.findViewById(R.id.heart_small);
+            mdesc = itemView.findViewById(R.id.description);
 
 
         }

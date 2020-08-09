@@ -108,7 +108,7 @@ public class ShowInvitationActivity extends AppCompatActivity {
 
                     Upload_invitation minvite = post.getValue(Upload_invitation.class);
 
-                    mgoing.setText( " "+ Integer.toString(minvite.getGoing()) + " GOING");
+                    mgoing.setText( " "+ minvite.getGoing() + " GOING");
 
 
                 }

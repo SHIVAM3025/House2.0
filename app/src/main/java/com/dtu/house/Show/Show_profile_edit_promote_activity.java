@@ -259,7 +259,7 @@ public class Show_profile_edit_promote_activity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if ((ContextCompat.checkSelfPermission(Show_profile_edit_promote_activity.this, Manifest.permission.READ_EXTERNAL_STORAGE)) != (PackageManager.PERMISSION_GRANTED)) {
 
-                ActivityCompat.requestPermissions((Activity) Show_profile_edit_promote_activity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+                ActivityCompat.requestPermissions(Show_profile_edit_promote_activity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
             } else {
 
                 CropImage.activity()

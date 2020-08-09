@@ -7,7 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.dtu.house.Model.Upload_Personal_promote;
@@ -15,9 +17,6 @@ import com.dtu.house.R;
 import com.dtu.house.Show.Show_profile_edit_promote_activity;
 
 import java.util.List;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
 public class Profile_Promote_Adapter extends RecyclerView.Adapter<Profile_Promote_Adapter.HoldView> {
 
@@ -32,7 +31,7 @@ public class Profile_Promote_Adapter extends RecyclerView.Adapter<Profile_Promot
     @NonNull
     @Override
     public HoldView onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(mcontext).inflate(R.layout.personal_invite_layout , parent , false);
+        View v = LayoutInflater.from(mcontext).inflate(R.layout.personal_invite_layout, parent, false);
         return new Profile_Promote_Adapter.HoldView(v);
     }
 
@@ -45,22 +44,21 @@ public class Profile_Promote_Adapter extends RecyclerView.Adapter<Profile_Promot
                 .load(uploadCurrent.getmImageUrl())
                 .into(holder.mimage);
 
-        holder.mlikes.setText(" "+uploadCurrent.getLike() + " Likes");
+        holder.mlikes.setText(" " + uploadCurrent.getLike() + " Likes");
 
         holder.medit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent  = new Intent(mcontext , Show_profile_edit_promote_activity.class);
-                intent.putExtra("mkey" , uploadCurrent.getMkey());
-                intent.putExtra("imageUrl" , uploadCurrent.getmImageUrl());
-                intent.putExtra("no_of_likes" , Integer.toString(uploadCurrent.getLike()));
+                Intent intent = new Intent(mcontext, Show_profile_edit_promote_activity.class);
+                intent.putExtra("mkey", uploadCurrent.getMkey());
+                intent.putExtra("imageUrl", uploadCurrent.getmImageUrl());
+                intent.putExtra("no_of_likes", Integer.toString(uploadCurrent.getLike()));
                 mcontext.startActivity(intent);
 
 
-           }
-       });
-
+            }
+        });
 
 
     }
@@ -70,8 +68,7 @@ public class Profile_Promote_Adapter extends RecyclerView.Adapter<Profile_Promot
         return mUploads.size();
     }
 
-    public class HoldView extends RecyclerView.ViewHolder
-    {
+    public class HoldView extends RecyclerView.ViewHolder {
 
         ImageView mimage;
         TextView mlikes;

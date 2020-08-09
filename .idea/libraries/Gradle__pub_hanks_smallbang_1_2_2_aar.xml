@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: pub.hanks:smallbang:1.2.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5be13abbdcc34644727b85397135cf04/smallbang-1.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5be13abbdcc34644727b85397135cf04/smallbang-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e792a99d10ece1dc87ac679d14d19c0b/jetified-smallbang-1.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e792a99d10ece1dc87ac679d14d19c0b/jetified-smallbang-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e792a99d10ece1dc87ac679d14d19c0b/jetified-smallbang-1.2.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.hanks/smallbang/1.2.2/e9b44a98921104f314cbfda128063bfabf0fbd83/smallbang-1.2.2-javadoc.jar!/" />

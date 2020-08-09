@@ -24,8 +24,8 @@ public class ImageEnlarge extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_enlarge);
 
-        mimageView = (ImageView) findViewById(R.id.imageView);
-        mprogress = (ProgressBar) findViewById(R.id.progressBar);
+        mimageView = findViewById(R.id.imageView);
+        mprogress = findViewById(R.id.progressBar);
         intent = getIntent();
         String imageUrl = intent.getStringExtra("imageurl");
             mprogress.setVisibility(View.VISIBLE);
